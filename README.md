@@ -12,3 +12,9 @@ Test `mozApps.install()` and `mozApps.installPackage()` in KaiOS
 ## Knows issue
 
 Cannot use `mozApps.installPackage()` with `success` return but `installOrigins`, `manifestURL` and etc. are returned `undefined`.
+
+## Notice
+
+`https://kaios.tri1.workers.dev` is used to obtain the file header and forcibly convert the file type, it is safe, built on CloudFlare Workers.
+
+CloudFlare Workers script: https://github.com/openGiraffes/openGiraffes-store-web/blob/master/CloudflareWorker.js
